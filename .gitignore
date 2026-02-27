@@ -1,43 +1,43 @@
-# -----
-build/
-ffmpeg-temp/
-android/ffmpeg-*
-android/openssl-*
-ios/ffmpeg-*
-ios/openssl-*
-extra
-.DS_Store
-ijkmedia/ijkyuv/
-ijkmedia/ijksoundtouch
-ijkprof/android-ndk-profiler/
-
-# built application files
-*.apk
-*.ap_
-
-# files for the dex VM
-*.dex
-
-# Java class files
-*.class
-
-# generated files
-bin/
-gen/
-libs/
-obj/
-ijkmedia/ijkplayer/ijkversion.h
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Android Studio
-.idea
-.gradle
-build/
-
-# Xcode
-xcuserdata
-xcshareddata
-*.xccheckout
-
+*.a
+*.o
+*.o.*
+*.d
+*.def
+*.dll
+*.dylib
+*.exe
+*.exp
+*.gcda
+*.gcno
+*.h.c
+*.ilk
+*.lib
+*.pc
+*.pdb
+*.so
+*.so.*
+*.swp
+*.ver
+*.version
+*.metal.air
+*.metallib
+*.metallib.c
+*.ptx
+*.ptx.c
+*.ptx.gz
+*_g
+\#*
+.\#*
+/.config
+/.version
+/ffmpeg
+/ffplay
+/ffprobe
+/config.asm
+/config.h
+/config_components.h
+/coverage.info
+/lcov/
+/src
+/mapfile
+/tools/python/__pycache__/
